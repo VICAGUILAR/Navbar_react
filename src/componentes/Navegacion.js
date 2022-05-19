@@ -1,4 +1,5 @@
 import React from "react";
+import CartWidget from "./CartWidget";
 
 const Navegacion = () => {
     return (
@@ -21,8 +22,11 @@ const Navegacion = () => {
                         <a className="nav-link" href="#">AUDIO</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link disabled">Novedades</a>
-                         </li>
+                        <a className="nav-link" href="#">Novedades</a>
+                        </li>
+                        <li className="nav-item">
+                        <a className="nav-link"><CartWidget/></a>
+                        </li>
                     </ul>
                 </div>
             </div>

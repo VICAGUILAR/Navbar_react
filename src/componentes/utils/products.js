@@ -1,5 +1,5 @@
-const data = [
-    {
+const products = [
+  {
       id: 30,
       name: "DJControl Inpulse 500 White Edition",
       stock: 100,
@@ -259,8 +259,8 @@ const data = [
       },
       reviews: []
     }
-  ];
+]
 
-  export default {
-    data,
-  }
+module.exports = {
+  products,
+}

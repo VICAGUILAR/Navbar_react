@@ -16,15 +16,16 @@ useEffect(() => {
 },[]);
 console.log(datos)
 
-    const onAdd= (quantity) => {
-        console.log (`Compraste ${quantity} unidades`);
-    }
+const onAdd = (quantity) => {
+    alert(`Acabas de añadir ${quantity} unidades a tu carrito`);
+}
 
     return (
         <div className="ItemListConteiner">
             ESTOS PRODUCTOS TE PUEDEN INTERESAR
             <ItemList items={datos}/>
             <ItemCount initial={1} stock={5} onAdd={onAdd}/>
+            
             
         </div>
     );

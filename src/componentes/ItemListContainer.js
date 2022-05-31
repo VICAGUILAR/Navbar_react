@@ -1,9 +1,10 @@
-import ItemList from '../componentes/ItemList';
+import ItemList from './ItemList';
 import { Wrapper } from './styledComponents';
-import ItemCount from '../componentes/ItemCount'
-import customFetch from './utils/customFetch'
+import ItemCount from './ItemCount'
+import customFetch from '../utils/customFetch'
 import { useEffect, useState} from 'react';
-const {products} = require('../componentes/utils/products');
+
+const {products} = require('../utils/products');
 
 
 function  ItemListeConteiner () {
@@ -25,6 +26,7 @@ const onAdd = (quantity) => {
             ESTOS PRODUCTOS TE PUEDEN INTERESAR
             <ItemList items={datos}/>
             <ItemCount initial={1} stock={5} onAdd={onAdd}/>
+            <ItemList datos={datos}/>
             
             
         </div>

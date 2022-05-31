@@ -49,6 +49,7 @@ const ProductAmountContainer = styled.div`
 const ProductAmount = styled.div`
     font-size: 24px;
     margin: 5px;
+    
 `;
 
 
@@ -58,6 +59,7 @@ const ProductsContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 `;
 
 //Item
@@ -84,7 +86,7 @@ const ProductContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5fbfd;
+    background-color: red;
     position: relative;
     &:hover ${Info}{
         opacity: 1;

@@ -1,7 +1,7 @@
 import React from "react";
 import CartWidget from "./CartWidget";
 
-const Navegacion = () => {
+const NavBar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-danger ">
@@ -35,4 +35,4 @@ const Navegacion = () => {
     )
 }
 
-export default Navegacion
+export default NavBar
